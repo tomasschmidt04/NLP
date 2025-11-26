@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "base_conv": {
+      "messages": [
+        {
+          "role": "user",
+          "content": "How do I reset my home router?"
+        }
+      ]
+    },
+    "direct": 73.0,
+    "hedging": 95.0,
+    "clarify": 76.7,
+    "best": "direct"
+  },
+  {
+    "id": 2,
+    "base_conv": {
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the capital of France?"
+        }
+      ]
+    },
+    "direct": 6.0,
+    "hedging": 35.0,
+    "clarify": 48.0,
+    "best": "direct"
+  },
+  {
+    "id": 3,
+    "base_conv": {
+      "messages": [
+        {
+          "role": "user",
+          "content": "How do I reset my home router?"
+        }
+      ]
+    },
+    "direct": 73.0,
+    "hedging": 95.0,
+    "clarify": 76.7,
+    "best": "direct"
+  },
+  {
+    "id": 4,
+    "base_conv": {
+      "messages": [
+        {
+          "role": "user",
+          "content": "Summarize the plot of The Matrix in two sentences."
+        }
+      ]
+    },
+    "direct": 138.0,
+    "hedging": 150.0,
+    "clarify": 86.0,
+    "best": "clarify"
+  },
+  {
+    "id": 5,
+    "base_conv": {
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the capital of France?"
+        }
+      ]
+    },
+    "direct": 6.0,
+    "hedging": 35.0,
+    "clarify": 48.0,
+    "best": "direct"
+  }
+]

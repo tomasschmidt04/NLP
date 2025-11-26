@@ -1,0 +1,249 @@
+[
+  {
+    "id": 1,
+    "base_conv": {
+      "messages": [
+        {
+          "role": "user",
+          "content": "How do I reset my home router?"
+        }
+      ]
+    },
+    "direct": {
+      "messages": [
+        {
+          "role": "assistant",
+          "content": "Press and hold the reset button for 10–15 seconds until the lights flash."
+        }
+      ]
+    },
+    "hedging": {
+      "messages": [
+        {
+          "role": "assistant",
+          "content": "It can vary by model, but generally you hold the recessed reset button for about 10–15 seconds."
+        }
+      ]
+    },
+    "clarify": {
+      "messages": [
+        {
+          "role": "assistant",
+          "content": "Which brand/model is your router? Steps differ by vendor and firmware."
+        },
+        {
+          "role": "user",
+          "content": "It’s a TP-Link Archer C6."
+        },
+        {
+          "role": "assistant",
+          "content": "For that model, hold reset/WPS ~10 seconds until LEDs blink, then wait for reboot."
+        },
+        {
+          "role": "user",
+          "content": "Will that erase my settings?"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, a factory reset clears settings. For a soft restart, power-cycle instead."
+        }
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "base_conv": {
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the capital of France?"
+        }
+      ]
+    },
+    "direct": {
+      "messages": [
+        {
+          "role": "assistant",
+          "content": "Paris."
+        }
+      ]
+    },
+    "hedging": {
+      "messages": [
+        {
+          "role": "assistant",
+          "content": "I’m fairly sure it’s Paris, if memory serves."
+        },
+        {
+          "role": "user",
+          "content": "So… Paris, right?"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes—Paris is the capital."
+        }
+      ]
+    },
+    "clarify": {
+      "messages": [
+        {
+          "role": "assistant",
+          "content": "Do you mean the political capital or a cultural center?"
+        },
+        {
+          "role": "user",
+          "content": "Political."
+        },
+        {
+          "role": "assistant",
+          "content": "Got it—politically, the capital is Paris."
+        }
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "base_conv": {
+      "messages": [
+        {
+          "role": "user",
+          "content": "How do I reset my home router?"
+        }
+      ]
+    },
+    "direct": {
+      "messages": [
+        {
+          "role": "assistant",
+          "content": "Press and hold the reset button for 10–15 seconds until the lights flash."
+        }
+      ]
+    },
+    "hedging": {
+      "messages": [
+        {
+          "role": "assistant",
+          "content": "It can vary by model, but generally you hold the recessed reset button for about 10–15 seconds."
+        }
+      ]
+    },
+    "clarify": {
+      "messages": [
+        {
+          "role": "assistant",
+          "content": "Which brand/model is your router? Steps differ by vendor and firmware."
+        },
+        {
+          "role": "user",
+          "content": "It’s a TP-Link Archer C6."
+        },
+        {
+          "role": "assistant",
+          "content": "For that model, hold reset/WPS ~10 seconds until LEDs blink, then wait for reboot."
+        },
+        {
+          "role": "user",
+          "content": "Will that erase my settings?"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes, a factory reset clears settings. For a soft restart, power-cycle instead."
+        }
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "base_conv": {
+      "messages": [
+        {
+          "role": "user",
+          "content": "Summarize the plot of The Matrix in two sentences."
+        }
+      ]
+    },
+    "direct": {
+      "messages": [
+        {
+          "role": "assistant",
+          "content": "A hacker learns reality is a simulation run by machines and joins rebels. He embraces his role as The One and leads humanity’s resistance."
+        }
+      ]
+    },
+    "hedging": {
+      "messages": [
+        {
+          "role": "assistant",
+          "content": "If I recall, a hacker discovers reality is a simulation and joins rebels. I might miss nuances, but he becomes a prophesied hero against the machines."
+        }
+      ]
+    },
+    "clarify": {
+      "messages": [
+        {
+          "role": "assistant",
+          "content": "Do you want spoilers or a high-level teaser?"
+        },
+        {
+          "role": "user",
+          "content": "Full spoilers are fine."
+        },
+        {
+          "role": "assistant",
+          "content": "Neo learns reality is a machine-made simulation and joins rebels to free humanity. He accepts being The One and leads the fight."
+        }
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "base_conv": {
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the capital of France?"
+        }
+      ]
+    },
+    "direct": {
+      "messages": [
+        {
+          "role": "assistant",
+          "content": "Paris."
+        }
+      ]
+    },
+    "hedging": {
+      "messages": [
+        {
+          "role": "assistant",
+          "content": "I’m fairly sure it’s Paris, if memory serves."
+        },
+        {
+          "role": "user",
+          "content": "So… Paris, right?"
+        },
+        {
+          "role": "assistant",
+          "content": "Yes—Paris is the capital."
+        }
+      ]
+    },
+    "clarify": {
+      "messages": [
+        {
+          "role": "assistant",
+          "content": "Do you mean the political capital or a cultural center?"
+        },
+        {
+          "role": "user",
+          "content": "Political."
+        },
+        {
+          "role": "assistant",
+          "content": "Got it—politically, the capital is Paris."
+        }
+      ]
+    }
+  }
+]
